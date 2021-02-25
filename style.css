@@ -1,0 +1,55 @@
+:root {
+	--primary-font: Poppins, Helvetica, sans-serif;
+	--dark: #333;
+}
+
+* { box-sizing: border-box; }
+
+html {
+	background: gray;
+	font-family: var(--primary-font);
+	font-size: 62.5%;
+	height: 100%;
+}
+
+body {
+	background: #fff;
+	font-size: 16px;
+	min-height: 100%;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 12px;
+
+
+.container {
+	display:grid;
+	justify-content: space-between;
+	grid-template-columns: repeat(3,2fr);
+	grid-template-rows:300px 300px 300px;
+	grid-gap: 10rem;
+	object-fit: cover;
+
+
+	
+}
+
+.picture {
+
+	width: 500px;
+	height: 500px
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
